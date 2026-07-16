@@ -185,6 +185,16 @@ button:hover{
     font-size:.9rem;
 }
 
+.footer a{
+    color:#666;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.footer a:hover{
+    color:var(--primary);
+}
+
 @keyframes pulse{
     0%,100%{
         transform:scale(1);
@@ -235,7 +245,7 @@ button:hover{
 
                 <defs>
                     <linearGradient id="grad">
-                        <stop offset="0%" stop-color="#FF982D"/>
+                        <stop offset="0%" stop-color="#FF982D"/>~
                         <stop offset="100%" stop-color="#F84D23"/>
                     </linearGradient>
                 </defs>
@@ -264,6 +274,8 @@ button:hover{
 
         <div class="footer">
             © 2026 Octagn. All rights reserved.
+            &nbsp;·&nbsp;
+            <a href="privacy-policy.html">Privacy Policy</a>
         </div>
 
     </div>
